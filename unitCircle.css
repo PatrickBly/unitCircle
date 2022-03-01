@@ -1,0 +1,155 @@
+*{
+    background: rgb(52, 190, 237)
+}
+
+button{
+    display: block;
+    margin: auto;
+    border: 4px black solid;
+}
+
+#unitCircle{
+    border: 4px rgb(0, 0, 0) solid;
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    display:block;
+    place-items: center;
+}
+
+#thirty{
+    background-color: rgb(255, 0, 0);
+    border-top-right-radius: 100%;
+    height: 50%;
+    width: 50%;
+}
+
+#fourtyFive{
+    background-color: rgb(255, 247, 0);
+    border-top-right-radius: 100%;
+    height: 50%;
+    width: 50%;
+}
+
+#sixty{
+    background-color: rgb(0, 0, 255);
+    border-top-right-radius: 100%;
+    height: 50%;
+    width: 50%;
+}
+
+#ninety{
+    background: rgb(0, 191, 255);
+    border-top-right-radius: 100%;
+    width: 50%;
+    height: 50%;
+}
+
+#oneTwenty{
+    background: rgb(30, 255, 0);
+    border-top-right-radius: 50% 100%;
+    border-top-left-radius: 50% 100%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+#oneThirtyFive{
+    background: rgb(250, 1, 138);
+    border-top-right-radius: 50% 100%;
+    border-top-left-radius: 50% 100%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+#oneFifty{
+    background: rgb(149, 0, 255);
+    border-top-right-radius: 50% 100%;
+    border-top-left-radius: 50% 100%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+#oneEighty{
+    background: rgb(15, 79, 196);
+    border-top-right-radius: 50% 100%;
+    border-top-left-radius: 50% 100%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+#twoTen{
+    background: rgb(255, 0, 68);
+    border-bottom-right-radius: 100%;
+    width: 50%;
+    height: 50%;
+}
+
+#twoTwentyFive{
+    background: rgb(0, 255, 94);
+    border-bottom-right-radius: 100%;
+    width: 50%;
+    height: 50%;
+}
+
+#twoFourty{
+    background: rgb(255, 62, 62);
+    border-bottom-right-radius: 100%;
+    width: 50%;
+    height: 50%;
+}
+
+#twoSeventy{
+    background: rgb(110, 77, 255);
+    border-bottom-right-radius: 100%;
+    width: 50%;
+    height: 50%;
+}
+
+#threeHundred{
+    background: rgb(255, 102, 1);
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+#threeThirty{
+    background: rgb(62, 243, 204);
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+#threeFourtyFive{
+    background: rgb(210, 110, 250);
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+#threeSixty{
+    background: rgb(91, 80, 240);
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
