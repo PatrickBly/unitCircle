@@ -2,154 +2,177 @@
     background: rgb(52, 190, 237)
 }
 
+#degreeInfo{
+    text-align: center;
+}
+
 button{
+    position: absolute;
     display: block;
     margin: auto;
     border: 4px black solid;
 }
 
-#unitCircle{
-    border: 4px rgb(0, 0, 0) solid;
-    background-color: white;
+.allCircleElements{
     height: 500px;
-    width: 500px;
+    position: relative;
+}
+
+.circleContainer{
+    position: absolute;
     border-radius: 100%;
-    display:block;
-    place-items: center;
+    clip: rect(0%, 100%, 100%, 50%);
+}
+
+.content{
+    border-radius: 100%;
+    clip: rect(0, 50%, 100%, 0);
+    margin: auto;
 }
 
 #thirty{
     background-color: rgb(255, 0, 0);
-    border-top-right-radius: 100%;
-    height: 50%;
-    width: 50%;
+    height: 500px;
+    width: 500px;
+    z-index: 1;
+    transform: rotate(30deg);
+    clip: circle();
+    clip: rect(0px, 500px, 500px, 250px);
 }
 
 #fourtyFive{
     background-color: rgb(255, 247, 0);
-    border-top-right-radius: 100%;
-    height: 50%;
-    width: 50%;
+    height: 500px;
+    width: 500px;
+    z-index: 2;
+    transform: rotate(45deg);
+    clip: circle();
+    clip: rect(0px, 500px, 500px, 250px);
 }
 
 #sixty{
     background-color: rgb(0, 0, 255);
-    border-top-right-radius: 100%;
-    height: 50%;
-    width: 50%;
+    height: 500px;
+    width: 500px;
+    z-index: 3;
+    transform: rotate(60deg);
+    clip: circle();
+    clip: rect(0px, 500px, 500px, 250px);
 }
 
 #ninety{
     background: rgb(0, 191, 255);
-    border-top-right-radius: 100%;
-    width: 50%;
-    height: 50%;
+    width: 500px;
+    height: 500px;
+    z-index: 4;
+    transform: rotate(90deg);
+    clip: rect(0px, 500px, 500px, 250px);
 }
 
 #oneTwenty{
     background: rgb(30, 255, 0);
-    border-top-right-radius: 50% 100%;
-    border-top-left-radius: 50% 100%;
-    border-bottom-right-radius: 0%;
-    border-bottom-left-radius: 0%;
-    width: 100%;
-    height: 50%;
+    width: 500px;
+    height: 500px;
+    z-index: 5;
+    transform: rotate(120deg);
+    clip: rect(0px, 500px, 500px, 250px);
 }
 
 #oneThirtyFive{
     background: rgb(250, 1, 138);
-    border-top-right-radius: 50% 100%;
-    border-top-left-radius: 50% 100%;
-    border-bottom-right-radius: 0%;
-    border-bottom-left-radius: 0%;
-    width: 100%;
-    height: 50%;
+    width: 500px;
+    height: 500px;
+    z-index: 6;
+    transform: rotate(135deg);
+    clip: rect(0px, 500px, 500px, 250px);
 }
 
 #oneFifty{
     background: rgb(149, 0, 255);
-    border-top-right-radius: 50% 100%;
-    border-top-left-radius: 50% 100%;
-    border-bottom-right-radius: 0%;
-    border-bottom-left-radius: 0%;
-    width: 100%;
-    height: 50%;
+    width: 500px;
+    height: 500px;
+    z-index: 7;
+    transform: rotate(150deg);
+    clip: rect(0px, 500px, 500px, 250px);
 }
 
 #oneEighty{
     background: rgb(15, 79, 196);
-    border-top-right-radius: 50% 100%;
-    border-top-left-radius: 50% 100%;
-    border-bottom-right-radius: 0%;
-    border-bottom-left-radius: 0%;
-    width: 100%;
-    height: 50%;
+    width: 500px;
+    height: 500px;
+    z-index: 8;
+    transform: rotate(180deg);
+    clip: rect(0px, 500px, 500px, 250px);
 }
 
 #twoTen{
     background: rgb(255, 0, 68);
-    border-bottom-right-radius: 100%;
-    width: 50%;
-    height: 50%;
+    width: 500px;
+    height: 500px;
+    z-index: 9;
+    transform: rotate(210deg);
+    clip: rect(0px, 500px, 500px, 250px);
 }
 
 #twoTwentyFive{
     background: rgb(0, 255, 94);
-    border-bottom-right-radius: 100%;
-    width: 50%;
-    height: 50%;
+    width: 500px;
+    height: 500px;
+    z-index: 10;
+    transform: rotate(225deg);
+    clip: rect(0px, 500px, 500px, 250px);
 }
 
 #twoFourty{
     background: rgb(255, 62, 62);
-    border-bottom-right-radius: 100%;
-    width: 50%;
-    height: 50%;
+    width: 500px;
+    height: 500px;
+    z-index: 11;
+    transform: rotate(240deg);
+    clip: rect(0px, 500px, 500px, 250px);
 }
 
 #twoSeventy{
     background: rgb(110, 77, 255);
-    border-bottom-right-radius: 100%;
-    width: 50%;
-    height: 50%;
+    width: 500px;
+    height: 500px;
+    z-index: 12;
+    transform: rotate(270deg);
+    clip: rect(0px, 500px, 500px, 250px);
 }
 
 #threeHundred{
     background: rgb(255, 102, 1);
-    border-top-right-radius: 100%;
-    border-top-left-radius: 100%;
-    border-bottom-left-radius: 100%;
-    border-bottom-right-radius: 100%;
-    width: 100%;
-    height: 100%;
+    width: 500px;
+    height: 500px;
+    z-index: 13;
+    transform: rotate(300deg);
+    clip: rect(0px, 500px, 500px, 250px);
+}
+
+#threeFifteen{
+    background: rgb(210, 110, 250);
+    width: 500px;
+    height: 500px;
+    z-index: 14;
+    transform: rotate(315deg);
+    clip: rect(0px, 500px, 500px, 250px);
 }
 
 #threeThirty{
     background: rgb(62, 243, 204);
-    border-top-right-radius: 100%;
-    border-top-left-radius: 100%;
-    border-bottom-left-radius: 100%;
-    border-bottom-right-radius: 100%;
-    width: 100%;
-    height: 100%;
-}
-
-#threeFourtyFive{
-    background: rgb(210, 110, 250);
-    border-top-right-radius: 100%;
-    border-top-left-radius: 100%;
-    border-bottom-left-radius: 100%;
-    border-bottom-right-radius: 100%;
-    width: 100%;
-    height: 100%;
+    width: 500px;
+    height: 500px;
+    z-index: 15;
+    transform: rotate(330deg);
+    clip: rect(0px, 500px, 500px, 250px);
 }
 
 #threeSixty{
     background: rgb(91, 80, 240);
-    border-top-right-radius: 100%;
-    border-top-left-radius: 100%;
-    border-bottom-left-radius: 100%;
-    border-bottom-right-radius: 100%;
-    width: 100%;
-    height: 100%;
+    width: 500px;
+    height: 500px;
+    z-index: 16;
+    transform: rotate(360deg);
+    clip: rect(0px, 500px, 500px, 250px);
 }
