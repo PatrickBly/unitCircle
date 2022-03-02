@@ -1,115 +1,63 @@
-function displayCircle(){
-    
-}
-
 function thirty(){
-    let thirtyDegrees = document.createElement('h2')
-    thirtyDegrees.innerHTML = "30'" 
-    document.appendChild(thirtyDegree)
-    document.getElementById('thirty').style.display = grid
+    document.getElementById('degreeInfo').innerHTML = "30' | (√3/2, 1/2) | π/6"; 
 }
 
 function fourtyFive(){
-    let fourtyFiveDegrees = document.createElement('h2')
-    fourtyFiveDegrees.innerHTML = "45'" 
-    document.appendChild(fourtyFiveDegrees)
-    document.getElementById('fourtyFiveDegrees').style.display = grid
+    document.getElementById('degreeInfo').innerHTML = "45' | (√2/2, √2/2) | π/4" ;
 }
 
 function sixty(){
-    let sixtyDegrees = document.createElement('h2')
-    sixtyDegrees.innerHTML = "60'" 
-    document.appendChild(sixtyDegree)
-    document.getElementById('sixty').style.display = grid
+    document.getElementById('degreeInfo').innerHTML = "60' | (1/2, √3/2) | π/3";
 }
 
 function ninety(){
-    let ninetyDegrees = document.createElement('h2')
-    ninetyDegrees.innerHTML = "90'" 
-    document.appendChild(ninetyDegree)
-    document.getElementById('ninety').style.display = grid
+    document.getElementById('degreeInfo').innerHTML = "90' | (0, 1) | π/2";
 }
 
 function oneTwenty(){
-    let oneTwentyDegrees = document.createElement('h2')
-    oneTwentyDegrees.innerHTML = "125'" 
-    document.appendChild(oneTwentyDegrees)
-    document.getElementById('oneTwenty').style.display = grid
+    document.getElementById('degreeInfo').innerHTML = "120' | (-1/2, √3/2) | 2π/3" 
 }
 
 function oneThirtyFive(){
-    let oneThirtyFiveDegrees = document.createElement('h2')
-    oneThirtyFiveDegrees.innerHTML = "135'" 
-    document.appendChild(oneThirtyFiveDegrees)
-    document.getElementById('oneThirtyFive').style.display = grid
+    document.getElementById('degreeInfo').innerHTML = "135' | (-√2/2, √2/2) | 3π/4" 
 }
 
 function oneFifty(){
-    let oneFiftyDegrees = document.createElement('h2')
-    oneFiftyDegrees.innerHTML = "150'" 
-    document.appendChild(oneFiftyDegrees)
-    document.getElementById('oneFifty').style.display = grid
+    document.getElementById('degreeInfo').innerHTML = "150' | (-√3/2, 1/2) | 5π/6" 
 }
 
 function oneEighty(){
-    let oneEightyDegrees= document.createElement('h2')
-    oneEightyDegrees.innerHTML = "180'" 
-    document.appendChild(oneEightyDegrees)
-    document.getElementById('oneEighty').style.display = grid
+    document.getElementById('degreeInfo').innerHTML = "180' | (-1, 0) | π" 
 }
 
 function twoTen(){
-    let twoTenDegrees = document.createElement('h2')
-    Degree.innerHTML = "210'"
-    document.appendChild(twoTenDegrees)
-    document.getElementById('twoTen').style.display = grid
+    document.getElementById('degreeInfo').innerHTML = "210' | (-√3/2, -1/2) | 7π/6"
 }
 
 function twoTwentyFive(){
-    let twoTwentyFiveDegrees = document.createElement('h2')
-    twoTwentyFiveDegrees.innerHTML = "'" 
-    document.appendChild(twoTwentyFiveDegrees)
-    document.getElementById('twoTwentyFiveDegrees').style.display = grid
+    document.getElementById('degreeInfo').innerHTML = "225' | (-√2/2, -√2/2) | 5π/4" 
 }
 
 function twoFourty(){
-    let twoFourtyDegrees = document.createElement('h2')
-    twoFourtyDegrees.innerHTML = "240'" 
-    document.appendChild(twoFourtyDegrees)
-    document.getElementById('twoFourty').style.display = grid
+    document.getElementById('degreeInfo').innerHTML = "240' | (-1/2, √3/2) | 4π/3" 
 }
 
 function twoSeventy(){
-    let twoSeventyDegrees = document.createElement('h2')
-    twoSeventyDegrees.innerHTML = "270'" 
-    document.appendChild(twoSeventyDegrees)
-    document.getElementById('twoSeventy').style.display = grid
+    document.getElementById('degreeInfo').innerHTML = "270' | (0, -1) | 3π/2" 
 }
 
 function threeHundred(){
-    let threeHundredDegrees = document.createElement('h2')
-    threeHundredDegrees.innerHTML = "300'" 
-    document.appendChild(threeHundredDegrees)
-    document.getElementById('threeHundred').style.display = grid
+    document.getElementById('degreeInfo').innerHTML = "300' | (1/2, -√3/2) | 5π/3" 
+}
+
+function threeFifteen(){
+    document.getElementById('degreeInfo').innerHTML = "315' | (√2/2, -√2/2) | 7π/4" 
 }
 
 function threeThirty(){
-    let threeThirtyDegrees = document.createElement('h2')
-    threeThirtyDegrees.innerHTML = "330'" 
-    document.appendChild(threeThirtyDegrees)
-    document.getElementById('threeThirty').style.display = grid
-}
-
-function threeFourtyFive(){
-    let threeFourtyFiveDegrees = document.createElement('h2')
-    threeFourtyFiveDegrees.innerHTML = "345'" 
-    document.appendChild(threeFourtyFiveDegrees)
-    document.getElementById('threeFourtyFive').style.display = grid
+    document.getElementById('degreeInfo').innerHTML = "330' | (√3/2, -1/2) | 11π/6" 
 }
 
 function threeSixty(){
-    let threeSixtyDegrees = document.createElement('h2')
-    threeSixtyDegrees.innerHTML = "360'" 
-    document.appendChild(threeSixtyDegrees)
-    document.getElementById('threeSixty').style.display = grid
+    document.getElementById('degreeInfo').innerHTML = "0' or 360' | (1,0) | 0" 
 }
