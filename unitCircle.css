@@ -11,9 +11,12 @@ button{
     display: block;
     margin: auto;
     border: 4px black solid;
+    transition: all 1.75s;
+    height: 500px;
+    width: 500px;
 }
 
-.allCircleElements{
+.allcircleElements{
     height: 500px;
     position: relative;
 }
@@ -21,158 +24,95 @@ button{
 .circleContainer{
     position: absolute;
     border-radius: 100%;
-    clip: rect(0%, 100%, 100%, 50%);
 }
 
 .content{
     border-radius: 100%;
-    clip: rect(0, 50%, 100%, 0);
     margin: auto;
+    clip: rect(0px, 500px, 500px, 250px);
 }
 
 #thirty{
     background-color: rgb(255, 0, 0);
-    height: 500px;
-    width: 500px;
-    z-index: 1;
-    transform: rotate(30deg);
-    clip: circle();
-    clip: rect(0px, 500px, 500px, 250px);
+    transform: rotate(90deg)
 }
 
 #fourtyFive{
     background-color: rgb(255, 247, 0);
-    height: 500px;
-    width: 500px;
-    z-index: 2;
-    transform: rotate(45deg);
-    clip: circle();
-    clip: rect(0px, 500px, 500px, 250px);
+    transform: rotate(120deg);
 }
 
 #sixty{
     background-color: rgb(0, 0, 255);
-    height: 500px;
-    width: 500px;
-    z-index: 3;
-    transform: rotate(60deg);
-    clip: circle();
-    clip: rect(0px, 500px, 500px, 250px);
+    transform: rotate(135deg);
 }
 
 #ninety{
     background: rgb(0, 191, 255);
-    width: 500px;
-    height: 500px;
-    z-index: 4;
-    transform: rotate(90deg);
-    clip: rect(0px, 500px, 500px, 250px);
+    transform: rotate(150deg);
+    border: 4px black solid;
 }
 
 #oneTwenty{
     background: rgb(30, 255, 0);
-    width: 500px;
-    height: 500px;
-    z-index: 5;
-    transform: rotate(120deg);
-    clip: rect(0px, 500px, 500px, 250px);
+    transform: rotate(180deg);
 }
 
 #oneThirtyFive{
     background: rgb(250, 1, 138);
-    width: 500px;
-    height: 500px;
-    z-index: 6;
-    transform: rotate(135deg);
-    clip: rect(0px, 500px, 500px, 250px);
+    transform: rotate(210deg);
 }
 
 #oneFifty{
     background: rgb(149, 0, 255);
-    width: 500px;
-    height: 500px;
-    z-index: 7;
-    transform: rotate(150deg);
-    clip: rect(0px, 500px, 500px, 250px);
+    transform: rotate(225deg);
 }
 
 #oneEighty{
     background: rgb(15, 79, 196);
-    width: 500px;
-    height: 500px;
-    z-index: 8;
-    transform: rotate(180deg);
-    clip: rect(0px, 500px, 500px, 250px);
+    transform: rotate(240deg);
+    border: 4px black solid;
 }
 
 #twoTen{
     background: rgb(255, 0, 68);
-    width: 500px;
-    height: 500px;
-    z-index: 9;
-    transform: rotate(210deg);
-    clip: rect(0px, 500px, 500px, 250px);
+    transform: rotate(270deg);
 }
 
 #twoTwentyFive{
     background: rgb(0, 255, 94);
-    width: 500px;
-    height: 500px;
-    z-index: 10;
-    transform: rotate(225deg);
-    clip: rect(0px, 500px, 500px, 250px);
+    transform: rotate(300deg);
 }
 
 #twoFourty{
     background: rgb(255, 62, 62);
-    width: 500px;
-    height: 500px;
-    z-index: 11;
-    transform: rotate(240deg);
-    clip: rect(0px, 500px, 500px, 250px);
+    transform: rotate(315deg);
 }
 
 #twoSeventy{
     background: rgb(110, 77, 255);
-    width: 500px;
-    height: 500px;
-    z-index: 12;
-    transform: rotate(270deg);
-    clip: rect(0px, 500px, 500px, 250px);
+    transform: rotate(330deg);
+    border: 4px black solid;
 }
 
 #threeHundred{
     background: rgb(255, 102, 1);
-    width: 500px;
-    height: 500px;
-    z-index: 13;
-    transform: rotate(300deg);
-    clip: rect(0px, 500px, 500px, 250px);
+    transform: rotate(360deg);
+    
 }
 
 #threeFifteen{
     background: rgb(210, 110, 250);
-    width: 500px;
-    height: 500px;
-    z-index: 14;
-    transform: rotate(315deg);
-    clip: rect(0px, 500px, 500px, 250px);
+    transform: rotate(390deg);
 }
 
 #threeThirty{
     background: rgb(62, 243, 204);
-    width: 500px;
-    height: 500px;
-    z-index: 15;
-    transform: rotate(330deg);
-    clip: rect(0px, 500px, 500px, 250px);
+    transform: rotate(405deg);
 }
 
 #threeSixty{
     background: rgb(91, 80, 240);
-    width: 500px;
-    height: 500px;
-    z-index: 16;
-    transform: rotate(360deg);
-    clip: rect(0px, 500px, 500px, 250px);
+    transform: rotate(420deg);
+    border: 4px black;
 }
