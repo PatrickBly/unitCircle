@@ -1,118 +1,220 @@
 *{
-    background: rgb(52, 190, 237)
+    background: rgb(141, 178, 191);
+}
+
+.floatText{
+    font-size: 22px;
+    float: right;
+    margin-right: 250px;
+    padding:px;
+}
+
+.detailText{
+    padding: 84px;
+}
+
+.content {
+    transition: all 1.75s;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+#unitCircle{
+    margin-left: 250px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        deepskyblue 8.33%,  
+        blue 8.33%,
+        blue 12.85%,
+        magenta 12.85%,
+        magenta 16.97%,
+        purple 16.97%, 
+        purple 25.3%, 
+        crimson 25.3%,
+        crimson 33.63%,
+        red 33.63%,
+        red 37.75%,
+        orangered 37.75%,
+        orangered 41.87%,
+        orange 41.87%,
+        orange 50.2%,
+        yellow 50.2%,
+        yellow 58.53%,
+        greenyellow 58.53%,
+        greenyellow 62.65%,
+        yellowgreen 62.65%,
+        yellowgreen 66.77%,
+        green 66.77%,
+        green 75.1%,
+        darkgreen 75.1%,
+        darkgreen 83.43%,
+        darkcyan 83.43%,
+        darkcyan 87.55%,
+        aquamarine 87.55%,
+        aquamarine 91.67%,
+        aqua 91.67%,
+        aqua 100%  
+    );
+}
+
+.circles{
+    margin-left: 250px;
+}
+
+#thirty{
+    transform: rotate(60deg);
+    background-image: conic-gradient(
+        purple 8.33%,
+        black 8.33%
+    );
+    z-index: 1;
+}
+
+#fourtyFive{
+    transform: rotate(45deg);
+    background-image: conic-gradient(
+        magenta 12.5%,
+        black 12.5%
+    );
+    z-index: 1;
+}
+  
+#sixty{
+    transform: rotate(30deg);
+    background-image: conic-gradient(
+        blue 16.7%,
+        black 16.7%
+    );
+    z-index: 1;
+}
+
+#ninety{
+    transform: rotate();
+    background-image: conic-gradient(
+        deepskyblue 25%,
+        black 25%
+    );
+    z-index: 1;
+}
+
+#oneTwenty{
+    transform: rotate(-30deg);
+    background-image: conic-gradient(
+        aqua 33.33%,
+        black 33.33%
+    );
+    z-index: 1;
+}
+
+#oneThirtyFive{
+    transform: rotate(-45deg);
+    background-image: conic-gradient(
+        aquamarine 37.5%,
+        black 37.5%
+    );
+    z-index: 1;
+}
+
+#oneFifty{
+    transform: rotate(-60deg);
+    background-image: conic-gradient(
+        darkcyan 41.7%,
+        black 41.7%
+    );
+    z-index: 1;
+}
+
+#oneEighty{
+    transform: rotate(-90deg);
+    background-image: conic-gradient(
+        darkgreen 50%,
+        black 50%
+    );
+    z-index: 1;
+}
+
+#twoTen{
+    transform: rotate(-120deg);
+    background-image: conic-gradient(
+        green 58.35%,
+        black 58.35%
+    );
+    z-index: 1;
+}
+
+#twoTwentyFive{
+    transform: rotate(-135deg);
+    background-image: conic-gradient(
+        yellowgreen 62.5%,
+        black 62.5%
+    );
+    z-index: 1;
+}
+
+#twoFourty{
+    transform: rotate(-150deg);
+    background-image: conic-gradient(
+        greenyellow 66.66%,
+        black 66.66%
+    );
+    z-index: 1;
+}
+
+#twoSeventy{
+    transform: rotate(-180deg);
+    background-image: conic-gradient(
+        yellow 75%,
+        black 75%
+    );
+    z-index: 1;
+}
+
+#threeHundred{
+    transform: rotate(-210deg);
+    background-image: conic-gradient(
+        orange 83.33%,
+        black 83.33%
+    );
+    z-index: 1;
+}
+
+#threeFifteen{
+    transform: rotate(-225deg);
+    background-image: conic-gradient(
+        orangered 87.55%,
+        black 87.55%
+    );
+    z-index: 1;
+}
+
+#threeThirty{
+    transform: rotate(-240deg);
+    background-image: conic-gradient(
+        red 91.67%,
+        black 91.67%
+    );
+    z-index: 1;
+}
+
+#threeSixty{
+    transform: rotate(-270deg);
+    background-color: crimson;
+    z-index: 1;
+}
+
+
+#title{
+    text-align: center;
+    font-size: 20px;
+    float: right;
+    margin-top: 55px;
+    margin-right: 345px;
 }
 
 #degreeInfo{
     text-align: center;
-}
-
-button{
-    position: absolute;
-    display: block;
-    margin: auto;
-    border: 4px black solid;
-    transition: all 1.75s;
-    height: 500px;
-    width: 500px;
-}
-
-.allcircleElements{
-    height: 500px;
-    position: relative;
-}
-
-.circleContainer{
-    position: absolute;
-    border-radius: 100%;
-}
-
-.content{
-    border-radius: 100%;
-    margin: auto;
-    clip: rect(0px, 500px, 500px, 250px);
-}
-
-#thirty{
-    background-color: rgb(255, 0, 0);
-    transform: rotate(90deg)
-}
-
-#fourtyFive{
-    background-color: rgb(255, 247, 0);
-    transform: rotate(120deg);
-}
-
-#sixty{
-    background-color: rgb(0, 0, 255);
-    transform: rotate(135deg);
-}
-
-#ninety{
-    background: rgb(0, 191, 255);
-    transform: rotate(150deg);
-    border: 4px black solid;
-}
-
-#oneTwenty{
-    background: rgb(30, 255, 0);
-    transform: rotate(180deg);
-}
-
-#oneThirtyFive{
-    background: rgb(250, 1, 138);
-    transform: rotate(210deg);
-}
-
-#oneFifty{
-    background: rgb(149, 0, 255);
-    transform: rotate(225deg);
-}
-
-#oneEighty{
-    background: rgb(15, 79, 196);
-    transform: rotate(240deg);
-    border: 4px black solid;
-}
-
-#twoTen{
-    background: rgb(255, 0, 68);
-    transform: rotate(270deg);
-}
-
-#twoTwentyFive{
-    background: rgb(0, 255, 94);
-    transform: rotate(300deg);
-}
-
-#twoFourty{
-    background: rgb(255, 62, 62);
-    transform: rotate(315deg);
-}
-
-#twoSeventy{
-    background: rgb(110, 77, 255);
-    transform: rotate(330deg);
-    border: 4px black solid;
-}
-
-#threeHundred{
-    background: rgb(255, 102, 1);
-    transform: rotate(360deg);
-    
-}
-
-#threeFifteen{
-    background: rgb(210, 110, 250);
-    transform: rotate(390deg);
-}
-
-#threeThirty{
-    background: rgb(62, 243, 204);
-    transform: rotate(405deg);
-}
-
-#threeSixty{
-    background: rgb(91, 80, 240);
-    transform: rotate(420deg);
-    border: 4px black;
 }
